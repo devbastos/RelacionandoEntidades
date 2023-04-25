@@ -8,8 +8,8 @@
       "sslPort": 44380
     }
   },
-  "profiles": {
     "IIS Express": {
+  "profiles": {
       "commandName": "IISExpress",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
