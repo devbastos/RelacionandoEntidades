@@ -18,5 +18,7 @@ namespace FilmesAPI.Data.Dtos
         public string Nome { get; set; }
         public Endereco endereco { get; set; }
 
+        public Gerente Gerente { get; set; }
+
     }
 }
