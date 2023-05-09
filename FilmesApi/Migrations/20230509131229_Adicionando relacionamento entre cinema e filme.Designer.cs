@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FilmesApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230508202705_Adicionando relacionamento entre cinema e filme")]
+    [Migration("20230509131229_Adicionando relacionamento entre cinema e filme")]
     partial class Adicionandorelacionamentoentrecinemaefilme
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

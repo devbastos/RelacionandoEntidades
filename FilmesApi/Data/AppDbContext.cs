@@ -40,6 +40,5 @@ namespace FilmesApi.Data
         public DbSet<Endereco> Enderecos { get; set; }
         public DbSet<Gerente> Gerentes { get; set; }
         public DbSet<Sessao> Sessoes { get; set; }
-        
     }
 }

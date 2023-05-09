@@ -9,7 +9,7 @@ namespace FilmesApi.Profiles
     {
         public GerenteProfile()
         {
-            CreateMap<CreateGerenteDto, Gerente>();
+            CreateMap<CreateSessaoDto, Gerente>();
             CreateMap<Gerente, ReadGerenteDto>()
                 .ForMember(gerente => gerente.Cinemas, opts => opts
                 .MapFrom(gerente => gerente.Cinemas.Select

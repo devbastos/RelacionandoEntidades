@@ -21,7 +21,7 @@ namespace FilmesApi.Controllers
             _mapper = mapper;
         }
       [HttpPost]
-        public IActionResult AdicionaGerente(CreateGerenteDto dto)
+        public IActionResult AdicionaGerente(CreateSessaoDto dto)
         {
             Gerente gerente = _mapper.Map<Gerente>(dto);
             _context.Gerentes.Add(gerente);
